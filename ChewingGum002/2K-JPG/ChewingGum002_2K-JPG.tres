@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_u8vhe7ty"]
+
+[ext_resource type="Texture2D" uid="uid://acg_tpgzkhbu" id="Color" path="./ChewingGum002_2K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_uy406to2" id="AmbientOcclusion" path="./ChewingGum002_2K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_uvfn830o" id="Displacement" path="./ChewingGum002_2K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_whsxu4g7" id="Roughness" path="./ChewingGum002_2K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_7tovged2" id="NormalGL" path="./ChewingGum002_2K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
